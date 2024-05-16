@@ -1,0 +1,242 @@
+body {
+    background-color: rgba(220, 214, 205, 0.625);
+    font-family: "Inter", sans-serif;
+    font-weight: 400px;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #1340E0;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #610DEB;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+.left__side {
+    background-color: white;
+    padding: 0px 8px;
+
+    position: absolute;
+    left: 26%;
+    right: 26%;
+
+    display: grid;
+    grid-template-columns: 44% 4% 4% 4% 44%;
+}
+
+.right__side {
+    margin-left: 0px;
+}
+
+.col {
+    background-color: #610DEB;
+    margin: 0px 8px;
+}
+
+#col1 {
+    height: 81px;
+}
+
+#col2 {
+    height: 124px;
+}
+
+#col3 {
+    height: 318px;
+}
+
+
+#contact, #napr {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+#lang, #interests, #prof, #skills {
+    display: grid;
+    grid-template-columns: 50%;
+}
+
+#skills, #prog_lang{
+    display: grid;
+    grid-template-columns: 90%;
+}
+
+#prof {
+    padding-left: 90px;
+    background-image: url('../img/ph1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: -3px;
+    background-position-x: 40px;
+
+}
+
+#myself, #study {
+    display: grid;
+    grid-template-columns: 228px;
+}
+
+.right__side {
+    background-image: url('../img/ph2.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-y: -50px;
+    background-position-x: 190px;
+}
+#img, img {
+    width: 178px;
+    height: 160px;
+}
+
+#inter {
+    padding: 10px;
+    border-bottom: 7px solid #610DEB;
+    
+}
+
+.common {
+    text-align: center;
+}
+
+.skill {
+    width: 100%;
+}
+
+.lin, .lvl, .create-line {
+    grid-auto-rows: 2px;
+    
+    display: grid;
+    grid-template-columns: 82% 20%;
+}
+
+.lvl {
+    width: 20px;
+
+}
+
+.create-line {
+
+    width: 200px;
+    padding: 2px;  
+    background-image: linear-gradient(to right, #610DEB 50%, #676767 50%);
+  }
+
+  #l1, #l3 {
+
+    background-image: linear-gradient(to right, #610DEB 30%, #676767 70%);
+  }
+
+  #l2 {
+
+    background-image: linear-gradient(to right, #610DEB 60%, #676767 40%);
+  }
+
+#spec {
+    padding-left: 30px;
+}
+
+#people {
+    width: 40px;
+    height: 40px;
+}
+.fa-solid.fa-earth-americas {
+    color: #1340E0;
+}
+
+#inner__lang {
+    width: 400px;
+    
+}
+
+.color {
+    color: #610DEB;
+}
+
+.fa-solid.fa-star:first-child {
+    margin-left: 15px;
+}
+.fa-solid.fa-star.color.sec {
+    margin-left: 24px;
+}
+
+.fa-solid.fa-star.color.sec1 {
+    margin-left: 27px;
+}
+
+.napr_things {
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.fa-computer-mouse {
+    float: left;
+    padding-left: 50px;
+    position: absolute;
+    top: -5px;
+    left: -60px;
+}
+
+.fa-desktop {
+    float: left;
+    padding-left: 50px;
+    position: absolute;
+    top: -35px;
+    left: -30px;
+    transform: rotate(25deg);
+    color: #1340E0;
+}
+
+.fa-mobile-screen-button {
+    float: left;
+    padding-left: 50px;
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    transform: rotate(-25deg);
+}
+
+.container {
+    position: relative;
+}
+#interests {
+    position: relative;
+}
+.fa-heart {
+    position: absolute;
+    top: 5px;
+    left: 200px;
+    font-size: 40px;
+    color: #610DEB;
+}
+
+.txt__color {
+    color: white;
+}
+
+img.stars {
+    width: 100px;
+    height: 40px;
+    margin-left: 80px;
+}
+
+#prog_lang{
+    background-image: url('../img/circ.png');
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position-y: 44px;
+    background-position-x: 220px;
+}
+
+.col {
+    margin-left: 7px;
+}
